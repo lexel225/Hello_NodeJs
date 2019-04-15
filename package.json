@@ -14,5 +14,7 @@
     "eslint-config-google": "^0.12.0",
     "eslint-plugin-vue": "^5.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "formidable": "^1.2.1"
+  }
 }
