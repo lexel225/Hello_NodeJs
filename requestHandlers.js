@@ -15,7 +15,7 @@ function start(response) {
   '<body>'+
   '<form action="/upload" enctype="multipart/form-data" method="post">'+
   '<input type="file" name="upload" multiple="multiple" />'+
-  '<input type="submit" value="Please Upload .png file" />'+
+  '<input type="submit" value="Please Upload .png file, 17:24" />'+
   '</form>'+
   '</body>'+
   '</html>';
