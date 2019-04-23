@@ -4,7 +4,7 @@
   "description": "Practice NodeJS",
   "main": "HelloWorld.js",
   "scripts": {
-    "test": "node Helloworld.js",
+    "test": "node HelloWorld.js",
     "start": "node index.js"
   },
   "author": "Lexel_Yu <Lexel_Yu@asus.com>",
