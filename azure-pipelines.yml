@@ -18,5 +18,8 @@ steps:
 - script: |
     npm install
     npm test
-    # npm start
   displayName: 'npm install and run'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/_lexel225.Hello_NodeJs'
