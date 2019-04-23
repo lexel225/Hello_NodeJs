@@ -18,8 +18,8 @@ steps:
 - script: |
     npm install
     npm test
-  displayName: 'npm install and run'
+  displayName: 'npm install and test'
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)'
+# - task: PublishBuildArtifacts@1
+#  inputs:
+#    PathtoPublish: '$(System.DefaultWorkingDirectory)'
