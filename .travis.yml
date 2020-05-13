@@ -1,7 +1,10 @@
 language: node_js
 
+addons:
+  sonarcloud:
+    organization: "lexel225-sonar"
+    token: $SONAR_TOKEN
+
 script:
   - npm test
-
-notifications:
-  - lexel225@gmail.com
+  - sonar-scanner
