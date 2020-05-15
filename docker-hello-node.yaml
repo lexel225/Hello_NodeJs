@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: docker-hello-node-pod
+   labels:
+     app: demoApp
+spec:
+   containers:
+     - name: docker-hello-node
+       image: lexel225/docker-hello-node
+       ports:
+         - containerPort: 8888
